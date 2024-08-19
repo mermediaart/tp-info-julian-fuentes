@@ -50,7 +50,7 @@ class EscenaDos extends Escena {
             hideElements() {
                 // ----- Esto se agrego para "ocultar" el oscilador en otras escenas
                 // Reducir la amplitud del oscilador a cero al salir de la escena
-              //  this.osc.amp(0.01, 0.05); // Reduce la amplitud a 0 en 0.05 segundos
+           this.osc.amp(0.01, 0.05); // Reduce la amplitud a 0 en 0.05 segundos
             }
     
 
